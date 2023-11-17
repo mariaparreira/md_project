@@ -1,0 +1,191 @@
+/*STYLING THE HTML*/
+
+/*NAVBAR DESIGN*/
+.navbar-brand b {
+    font-size: 27px;
+    margin-left: 20px;
+}
+
+/*TITLE BOX DESIGN*/
+.title_titleBox {
+    background: linear-gradient(to bottom, #2f9069 0%, #a2e0c7 100%);
+    padding-top: 120px;
+    padding-right: 50px;
+    padding-bottom: 330px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*TITLE BOX SIZE (index.html)*/
+.styles_titleBox {
+    max-width: 900px;
+}
+
+/*TITLE BOX SIZE (registProd.html)*/
+.styles_titleBox1 {
+    max-width: 1500px;
+}
+
+/*TITLE DESIGN*/
+.title1 {
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: TRY Vesterbro;
+    font-size: min(66px, max(42px, calc(2.3vw + 32.8px)));
+    font-style: normal;
+    font-weight: 800;
+    line-height: min(80px, max(51px, calc(2.8vw + 39.6px)));
+    color: #ffffff;
+}
+
+/*TITLE COLOR FOR EMPHASIS ELEMENT*/
+.title1 em {
+    color: #236a4e;
+}
+
+/*SUBTITLE DESIGN*/
+.subtitle {
+    font-family: SF Pro Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin: 0;
+    color: #236a4e;
+    text-align: center;
+}
+
+/*SIGN UP BUTTON DESIGN*/
+.button {
+    width: 20%;
+    border-radius: 8px;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: #236a4e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 200px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+}
+
+/*LOGIN BUTTON DESIGN*/
+.button2 {
+    width: 20%;
+    border-radius: 8px;
+    align-items: center;
+    border: 1px solid #236a4e;
+    background-color: #ffffff;
+    color: #236a4e;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 200px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+/*LOGOFF, SEARCH and REGIST PRODUCT BUTTON DESIGN*/
+.button3 {
+    border-radius: 8px;
+    border: 1px solid #236a4e;
+    background-color: #ffffff;
+    color:#236a4e;
+    padding: 5px 50px;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*PRODUCT REGISTRATION TITLE DESIGN*/
+.registP_title {
+    color: #236a4e;
+    margin-top: 50px;
+    text-align: center;
+    font-family: TRY Vesterbro;
+}
+
+/*REGISTER FORM DESIGN*/
+#form {
+    color: #ffffff;
+    background-color: #2f9069;
+    border-radius: 10px;
+    width: 700px;
+    padding: 70px;
+    margin: 50px auto;
+    -webkit-box-shadow: -1px 3px 18px 0px #236a4e;
+    -moz-box-shadow: -1px 3px 18px 0px #236a4e;
+    box-shadow: -1px 3px 18px 0px #236a4e;
+    text-align: center;
+}
+
+.button4 {
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+}
+
+.sizing {
+    width: 80%;
+    border: 1px solid #236a4e;
+}
+
+/*GENERATE QR CODE DESIGN*/
+.textColor {
+    color: #236a4e
+}
+
+.button5 {
+    width: 20%;
+    height: 50px;
+    background: #236a4e;
+    color: #ffffff;
+    border: 1px solid #236a4e;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+#qrText {
+    margin-top: 50px;
+}
+
+#imgBox {
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    /*transition: max-height 1s ;*/
+}
+
+#imgBox img {
+    width: 100%;
+    padding: 10px;
+}
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 10 px auto;
+    border: 1px solid #b4c8c0;
+}
